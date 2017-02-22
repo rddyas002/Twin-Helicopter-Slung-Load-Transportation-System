@@ -1,7 +1,7 @@
 # Twin-Helicopter Slung Load Transportation System
 This repository contains all the hardware and software development that was done for the Twin-Helicopter Slung Load Transportaton System project.
 
-![alt-text](https://github.com/rddyas002/Twin-Helicopter-Slung-Load-Transportation-System/blob/master/twin_lift.jpg | width=100 "Twin-Helicopter Load Transportation Scheme")
+![](https://github.com/rddyas002/Twin-Helicopter-Slung-Load-Transportation-System/blob/master/twin_lift.jpg)
 
 ## Folder Hierarchy
 -> root <br/>
