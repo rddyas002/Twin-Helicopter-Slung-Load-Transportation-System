@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>BasicWindow.cpp</itemPath>
+      <itemPath>BasicWindow.h</itemPath>
+      <itemPath>BasicWindow.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Helicopter" projectFiles="true">
+        <itemPath>Helicopter.cpp</itemPath>
+        <itemPath>Helicopter.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="Multicast" projectFiles="true">
+        <itemPath>Multicast.cpp</itemPath>
+        <itemPath>Multicast.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="OpencvCamera" projectFiles="true">
+        <itemPath>OpencvCamera.cpp</itemPath>
+        <itemPath>OpencvCamera.h</itemPath>
+        <itemPath>PoseEstimation.cpp</itemPath>
+        <itemPath>PoseEstimation.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="qcustomplot" projectFiles="true">
+        <itemPath>qcustomplot.cpp</itemPath>
+        <itemPath>qcustomplot.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="SolvePoseEstimation" projectFiles="true">
+        <itemPath>ekf_coder/Reb.cpp</itemPath>
+        <itemPath>ekf_coder/Reb.h</itemPath>
+        <itemPath>ekf_coder/buildInfo.mat</itemPath>
+        <itemPath>ekf_coder/codeInfo.mat</itemPath>
+        <itemPath>ekf_coder/correctStateAndCov.cpp</itemPath>
+        <itemPath>ekf_coder/correctStateAndCov.h</itemPath>
+        <itemPath>ekf_coder/ekf_coder_emxutil.cpp</itemPath>
+        <itemPath>ekf_coder/ekf_coder_emxutil.h</itemPath>
+        <itemPath>ekf_coder/ekf_coder_initialize.cpp</itemPath>
+        <itemPath>ekf_coder/ekf_coder_initialize.h</itemPath>
+        <itemPath>ekf_coder/ekf_coder_ref.rsp</itemPath>
+        <itemPath>ekf_coder/ekf_coder_rtw.mk</itemPath>
+        <itemPath>ekf_coder/ekf_coder_rtw_tools.mk</itemPath>
+        <itemPath>ekf_coder/ekf_coder_terminate.cpp</itemPath>
+        <itemPath>ekf_coder/ekf_coder_terminate.h</itemPath>
+        <itemPath>ekf_coder/ekf_coder_types.h</itemPath>
+        <itemPath>ekf_coder/eulerAnglesFromQuaternion.cpp</itemPath>
+        <itemPath>ekf_coder/eulerAnglesFromQuaternion.h</itemPath>
+        <itemPath>ekf_coder/eye.cpp</itemPath>
+        <itemPath>ekf_coder/eye.h</itemPath>
+        <itemPath>ekf_coder/html</itemPath>
+        <itemPath>ekf_coder/inv.cpp</itemPath>
+        <itemPath>ekf_coder/inv.h</itemPath>
+        <itemPath>ekf_coder/mpower.cpp</itemPath>
+        <itemPath>ekf_coder/mpower.h</itemPath>
+        <itemPath>ekf_coder/projectStateAndCov.cpp</itemPath>
+        <itemPath>ekf_coder/projectStateAndCov.h</itemPath>
+        <itemPath>ekf_coder/quaternionRotation.cpp</itemPath>
+        <itemPath>ekf_coder/quaternionRotation.h</itemPath>
+        <itemPath>ekf_coder/rtGetInf.cpp</itemPath>
+        <itemPath>ekf_coder/rtGetInf.h</itemPath>
+        <itemPath>ekf_coder/rtGetNaN.cpp</itemPath>
+        <itemPath>ekf_coder/rtGetNaN.h</itemPath>
+        <itemPath>ekf_coder/rt_defines.h</itemPath>
+        <itemPath>ekf_coder/rt_nonfinite.cpp</itemPath>
+        <itemPath>ekf_coder/rt_nonfinite.h</itemPath>
+        <itemPath>ekf_coder/rtw_proj.tmw</itemPath>
+        <itemPath>ekf_coder/rtwtypes.h</itemPath>
+        <itemPath>ekf_coder/solvePoseEst.cpp</itemPath>
+        <itemPath>ekf_coder/solvePoseEst.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="TCP_client" projectFiles="true">
+        <itemPath>TCP_client.cpp</itemPath>
+        <itemPath>TCP_client.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="UDP" projectFiles="true">
+        <itemPath>UDP_socket.cpp</itemPath>
+        <itemPath>UDP_socket.h</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets network opengl printsupport</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/home/yashren/Academia/Mocap/Helicomms_Basic/ekf_coder</pElem>
+            <pElem>/home/yashren/Academia/Mocap/Helicomms_Basic</pElem>
+            <pElem>/usr/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>/opt/intel/composer_xe_2013.1.117/compiler/lib/ia32</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_signals-mt</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-larmadillo</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs cvblob`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BasicWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BasicWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BasicWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Helicopter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Helicopter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Multicast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Multicast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OpencvCamera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OpencvCamera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseEstimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseEstimation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TCP_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TCP_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UDP_socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UDP_socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/Reb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/Reb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/buildInfo.mat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/codeInfo.mat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/correctStateAndCov.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/correctStateAndCov.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_emxutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_emxutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_initialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_initialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_ref.rsp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_rtw.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_rtw_tools.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_terminate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_terminate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/eulerAnglesFromQuaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="ekf_coder/eulerAnglesFromQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="ekf_coder/eye.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/eye.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/inv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/inv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/mpower.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/mpower.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/projectStateAndCov.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/projectStateAndCov.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/quaternionRotation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/quaternionRotation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetInf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetInf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetNaN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetNaN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_nonfinite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_nonfinite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtw_proj.tmw" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtwtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/solvePoseEst.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/solvePoseEst.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="qcustomplot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="qcustomplot.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets network opengl printsupport</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>./ekf_coder</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>/opt/intel/composer_xe_2013.1.117/compiler/lib/ia32</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerOptionItem>-lrt -lboost_system -larmadillo -lboost_signals-mt</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs cvblob`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BasicWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BasicWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BasicWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Helicopter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Helicopter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Multicast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Multicast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OpencvCamera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OpencvCamera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseEstimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseEstimation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TCP_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TCP_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UDP_socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UDP_socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/Reb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/Reb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/buildInfo.mat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/codeInfo.mat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/correctStateAndCov.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/correctStateAndCov.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_emxutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_emxutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_initialize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_initialize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_ref.rsp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_rtw.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_rtw_tools.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_terminate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_terminate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/ekf_coder_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/eulerAnglesFromQuaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="ekf_coder/eulerAnglesFromQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="ekf_coder/eye.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/eye.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/inv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/inv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/mpower.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/mpower.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/projectStateAndCov.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/projectStateAndCov.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/quaternionRotation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/quaternionRotation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetInf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetInf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetNaN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtGetNaN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_nonfinite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/rt_nonfinite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtw_proj.tmw" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/rtwtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ekf_coder/solvePoseEst.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ekf_coder/solvePoseEst.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="qcustomplot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="qcustomplot.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

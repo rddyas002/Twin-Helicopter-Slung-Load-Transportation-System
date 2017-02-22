@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<RotationAnglesCamera_1 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>1</cols>
+  <dt>f</dt>
+  <data>
+    -1.21738720e+00 -2.44841075e+00 1.84785709e-01</data></RotationAnglesCamera_1>
+</opencv_storage>

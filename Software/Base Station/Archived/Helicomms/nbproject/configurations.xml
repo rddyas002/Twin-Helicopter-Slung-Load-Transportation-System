@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/Blob.h</itemPath>
+      <itemPath>include/Computer_channel.h</itemPath>
+      <itemPath>include/OpencvCamera.h</itemPath>
+      <itemPath>include/PoseEstimation.h</itemPath>
+      <itemPath>include/TCP_client.h</itemPath>
+      <itemPath>include/TCP_server.h</itemPath>
+      <itemPath>include/UDP_socket.h</itemPath>
+      <itemPath>include/getIP.h</itemPath>
+      <itemPath>include/qcustomplot.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>Window.cpp</itemPath>
+      <itemPath>Window.h</itemPath>
+      <itemPath>Window.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="ekf_coder" displayName="ekf_coder" projectFiles="true">
+        <logicalFolder name="html" displayName="html" projectFiles="true">
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/coder_report.mat</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/contents_file.tmp</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_buildlog1.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_types_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.css</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_mcode.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_watch.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_defines_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_cpp.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_h.html</itemPath>
+          <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtwtypes_h.html</itemPath>
+        </logicalFolder>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/buildInfo.mat</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_ref.rsp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.bat</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.mk</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_types.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_defines.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.cpp</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtw_proj.tmw</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtwtypes.h</itemPath>
+        <itemPath>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/setup_mssdk71.bat</itemPath>
+      </logicalFolder>
+      <itemPath>src/Blob.cpp</itemPath>
+      <itemPath>src/Computer_channel.cpp</itemPath>
+      <itemPath>src/OpencvCamera.cpp</itemPath>
+      <itemPath>src/PoseEstimation.cpp</itemPath>
+      <itemPath>src/TCP_client.cpp</itemPath>
+      <itemPath>src/TCP_server.cpp</itemPath>
+      <itemPath>src/UDP_socket.cpp</itemPath>
+      <itemPath>src/getIP.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>src/qcustomplot.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/home/yashren/Documents/Netbeans_Master/Helicomms/src</Elem>
+    <Elem>/home/yashren/Documents/Netbeans_Master/ekf_coder</Elem>
+    <Elem>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>"-I/usr/local/include/opencv -I/usr/local/include"</pElem>
+            <pElem>/home/yashren/Documents/Netbeans_Master/Helicomms/include</pElem>
+            <pElem>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+            <linkerOptionItem>-larmadillo</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs cvblob`</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_signals-mt</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Tar</packType>
+        <additionalOptions>-v</additionalOptions>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/buildInfo.mat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_ref.rsp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.bat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.mk"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/coder_report.mat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/contents_file.tmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_buildlog1.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_types_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_defines_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtwtypes_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_defines.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtw_proj.tmw"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtwtypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/setup_mssdk71.bat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Blob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Computer_channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/OpencvCamera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/PoseEstimation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TCP_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TCP_server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/UDP_socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/getIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/qcustomplot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Blob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Computer_channel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OpencvCamera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PoseEstimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TCP_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TCP_server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/UDP_socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/getIP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qcustomplot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>"-I/usr/local/include/opencv -I/usr/local/include"</pElem>
+            <pElem>/home/yashren/Documents/Netbeans_Master/Helicomms/include</pElem>
+            <pElem>/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+            <linkerOptionItem>-larmadillo</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs cvblob`</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_signals-mt</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/Reb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/buildInfo.mat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/correctStateAndCov.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_emxutil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_initialize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_ref.rsp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.bat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtw.mk"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_rtwutil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_terminate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/ekf_coder_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eulerAnglesFromQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/eye.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb286_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb347_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/Reb_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/coder_report.mat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/contents_file.tmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov1_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_buildlog1.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/correctStateAndCov_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_emxutil_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_initialize_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_rtwutil_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_terminate_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/ekf_coder_types_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion277_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eulerAnglesFromQuaternion_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/eye_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.css"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/index.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/inv_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/mpower_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/project2_2D50_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectState297_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov283_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/projectStateAndCov_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionMultiply346_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_mcode.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation333_watch.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/quaternionRotation_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetInf_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtGetNaN_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_defines_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_cpp.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rt_nonfinite_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/html/rtwtypes_h.html"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/inv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/mpower.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/projectStateAndCov.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/quaternionRotation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetInf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtGetNaN.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_defines.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rt_nonfinite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtw_proj.tmw"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/rtwtypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/yashren/Documents/Netbeans_Master/Helicomms/ekf_coder/setup_mssdk71.bat"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Blob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Computer_channel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/OpencvCamera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/PoseEstimation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TCP_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/TCP_server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/UDP_socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/getIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/qcustomplot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Blob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Computer_channel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OpencvCamera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PoseEstimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TCP_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TCP_server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/UDP_socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/getIP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qcustomplot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

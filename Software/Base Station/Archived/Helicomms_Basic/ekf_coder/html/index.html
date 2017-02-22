@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Code Generation Report</title>
+<link rel="stylesheet" type="text/css" href="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/eml_report.css" />
+<link rel="stylesheet" type="text/css" href="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/jQuery/ui.resizable.css" />
+<link rel="stylesheet" type="text/css" href="file:////home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/codegen/lib/ekf_coder/html/index.css" />
+
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/jQuery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/jQuery/jquery-ui-1.7.custom.min.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/jQuery/jquery.tablesorter.mod.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/jQuery/jquery.hotkeys-0.7.8.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/eml_report_interactions.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/coder/coder/resources/eml_report_layout.js"></script>
+<script type="text/javascript" src="file:////usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/rtw/rtw/+coder/+report/resources/rtwshrink.js"></script>
+<script type="text/javascript">
+var localizedMessages = {
+    callSelectPrompt: "Select a function call:",
+    callSelectSource: "Calls from this function",
+    callSelectTarget: "Calls to this function",
+    infoForExpression: "Information for the selected expression:",
+    infoForVarHere: "Information for the selected variable:",
+    infoForVarThere: "Information for the selected variable:",
+    infoForVarNone: "This variable does not have information associated with it.",
+    infoForFilter: "Matched {0}/{1} functions, {2}/{3} methods",
+    autoExtrinsicCall: "Only supported within the MATLAB environment."
+};
+var keyBindings = {
+        selectMCodeTab: "Ctrl+m",
+    selectCallStackTab: "Ctrl+k",
+        selectCCodeTab: "Ctrl+c",
+       selectReportTab: "Ctrl+r",
+     selectCenterPanel: "Ctrl+w",
+      selectSummaryTab: "Ctrl+s",
+     selectMessagesTab: "Ctrl+a",
+    selectWatchListTab: "Ctrl+v",
+     selectBuildLogTab: "Ctrl+t"
+};
+var functionInfoTable = {
+ MATLABcode1: "correctStateAndCov1_mcode.html",
+ fpath1: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/correctStateAndCov.m",
+ lines1: [1, 1, 234],
+ watch1: "correctStateAndCov1_watch.html",
+ title1: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/correctStateAndCov.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/correctStateAndCov.m')\">correctStateAndCov</a></span>",
+ tcall1: [  ],
+ scall1: [ [ "From line 44 to correctStateAndCov > project2_2D", "55#srcline234" ], [ "From line 106 to correctStateAndCov > project2_2D", "55#srcline234" ], [ "From line 167 to correctStateAndCov > project2_2D", "55#srcline234" ] ],
+ MATLABcode55: "project2_2D55_mcode.html",
+ fpath55: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/correctStateAndCov.m",
+ lines55: [233, 234, 257],
+ watch55: "project2_2D55_watch.html",
+ title55: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/correctStateAndCov.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/correctStateAndCov.m')\">correctStateAndCov &gt; project2_2D</a></span>",
+ tcall55: [ [ "From correctStateAndCov line 44", "1#F55N4:B169" ], [ "From correctStateAndCov line 106", "1#F55N4:B1092" ], [ "From correctStateAndCov line 167", "1#F55N4:B2015" ] ],
+ scall55: [  ],
+ MATLABcode302: "eulerAnglesFromQuaternion302_mcode.html",
+ fpath302: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/eulerAnglesFromQuaternion.m",
+ lines302: [1, 1, 11],
+ watch302: "eulerAnglesFromQuaternion302_watch.html",
+ title302: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/eulerAnglesFromQuaternion.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/eulerAnglesFromQuaternion.m')\">eulerAnglesFromQuaternion</a></span>",
+ tcall302: [  ],
+ scall302: [  ],
+ MATLABcode308: "projectStateAndCov308_mcode.html",
+ fpath308: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m",
+ lines308: [1, 1, 104],
+ watch308: "projectStateAndCov308_watch.html",
+ title308: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/projectStateAndCov.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m')\">projectStateAndCov</a></span>",
+ tcall308: [  ],
+ scall308: [ [ "From line 16 to projectStateAndCov > projectState", "325#srcline104" ] ],
+ MATLABcode311: "Reb311_mcode.html",
+ fpath311: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m",
+ lines311: [154, 158, 174],
+ watch311: "Reb311_watch.html",
+ title311: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/projectStateAndCov.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m')\">projectStateAndCov &gt; Reb</a></span>",
+ tcall311: [ [ "From projectStateAndCov > projectState line 122", "325#F311N8:B959" ] ],
+ scall311: [  ],
+ MATLABcode325: "projectState325_mcode.html",
+ fpath325: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m",
+ lines325: [102, 104, 158],
+ watch325: "projectState325_watch.html",
+ title325: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/projectStateAndCov.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m')\">projectStateAndCov &gt; projectState</a></span>",
+ tcall325: [ [ "From projectStateAndCov line 16", "308#F325N9:B33" ] ],
+ scall325: [ [ "From line 122 to projectStateAndCov > Reb", "311#srcline158" ] ],
+ MATLABcode362: "quaternionRotation362_mcode.html",
+ fpath362: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/quaternionRotation.m",
+ lines362: [1, 1, 6],
+ watch362: "quaternionRotation362_watch.html",
+ title362: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/quaternionRotation.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/quaternionRotation.m')\">quaternionRotation</a></span>",
+ tcall362: [  ],
+ scall362: [ [ "From line 3 to quaternionRotation > quaternionMultiply", "375#srcline6" ] ],
+ MATLABcode375: "quaternionMultiply375_mcode.html",
+ fpath375: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/quaternionRotation.m",
+ lines375: [5, 6, 12],
+ watch375: "quaternionMultiply375_watch.html",
+ title375: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/quaternionRotation.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/quaternionRotation.m')\">quaternionRotation &gt; quaternionMultiply</a></span>",
+ tcall375: [ [ "From quaternionRotation line 3", "362#F375N11:B12" ] ],
+ scall375: [  ],
+ MATLABcode376: "Reb376_mcode.html",
+ fpath376: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/Reb.m",
+ lines376: [1, 1, 17],
+ watch376: "Reb376_watch.html",
+ title376: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/Reb.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/Reb.m')\">Reb</a></span>",
+ tcall376: [  ],
+ scall376: [  ],
+ MATLABcode377: "solvePoseEst377_mcode.html",
+ fpath377: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m",
+ lines377: [1, 1, 215],
+ watch377: "solvePoseEst377_watch.html",
+ title377: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/solvePoseEst.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m')\">solvePoseEst</a></span>",
+ tcall377: [  ],
+ scall377: [ [ "From line 32 to solvePoseEst > project2_2D", "378#srcline222" ], [ "From line 93 to solvePoseEst > project2_2D", "378#srcline222" ], [ "From line 151 to solvePoseEst > project2_2D", "378#srcline222" ], [ "From line 210 to solvePoseEst > solveLSQ", "518#srcline215" ] ],
+ MATLABcode378: "project2_2D378_mcode.html",
+ fpath378: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m",
+ lines378: [221, 222, 245],
+ watch378: "project2_2D378_watch.html",
+ title378: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/solvePoseEst.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m')\">solvePoseEst &gt; project2_2D</a></span>",
+ tcall378: [ [ "From solvePoseEst line 32", "377#F378N13:B174" ], [ "From solvePoseEst line 93", "377#F378N13:B1043" ], [ "From solvePoseEst line 151", "377#F378N13:B1912" ] ],
+ scall378: [  ],
+ MATLABcode518: "solveLSQ518_mcode.html",
+ fpath518: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m",
+ lines518: [214, 215, 222],
+ watch518: "solveLSQ518_watch.html",
+ title518: "Function: <span class='functionname'><a title='/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c&nbsp;conversions/solvePoseEst.m' class='functionlink' href=\"matlab: open('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m')\">solvePoseEst &gt; solveLSQ</a></span>",
+ tcall518: [ [ "From solvePoseEst line 210", "377#F518N14:B2779" ] ],
+ scall518: [  ],
+ rootFcnID: "376",
+ firstPage: "quaternionRotation_cpp.html",
+ htmlRoot: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c%20conversions/codegen/lib/ekf_coder/html/"
+};
+var scriptInfoTable = {
+ fpath1: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/correctStateAndCov.m",
+ fpath2: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/mtimes.m",
+ fpath3: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_scalexp_compatible.m",
+ fpath4: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_div.m",
+ fpath5: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/rdivide.m",
+ fpath6: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/mrdivide.p",
+ fpath7: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_scalar_eg.m",
+ fpath8: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_scalexp_alloc.m",
+ fpath9: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/eml_scalar_floor.m",
+ fpath10: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/floor.m",
+ fpath11: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/power.m",
+ fpath12: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/mpower.m",
+ fpath13: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_index_class.m",
+ fpath14: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_blas_inline.m",
+ fpath15: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xgemm.m",
+ fpath16: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_xgemm.m",
+ fpath17: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xgemm.m",
+ fpath18: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_assert_valid_size_arg.m",
+ fpath19: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/isinf.m",
+ fpath20: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/intmax.m",
+ fpath21: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/shared/coder/coder/+coder/+internal/indexIntRelop.m",
+ fpath22: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_float_model.m",
+ fpath23: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/intmin.m",
+ fpath24: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_is_float_class.m",
+ fpath25: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_min_or_max.m",
+ fpath26: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/datafun/min.m",
+ fpath27: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_int_forloop_overflow_check.m",
+ fpath28: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/eye.m",
+ fpath29: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_index_minus.m",
+ fpath30: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_index_times.m",
+ fpath31: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_index_plus.m",
+ fpath32: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/eml_scalar_abs.m",
+ fpath33: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_realmin.m",
+ fpath34: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/realmin.m",
+ fpath35: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_eps.m",
+ fpath36: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/eps.m",
+ fpath37: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/ops/colon.m",
+ fpath38: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_isa_uint.m",
+ fpath39: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_unsigned_class.m",
+ fpath40: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/abs.m",
+ fpath41: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xcabs1.m",
+ fpath42: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_ixamax.m",
+ fpath43: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_ixamax.m",
+ fpath44: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_ixamax.m",
+ fpath45: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xswap.m",
+ fpath46: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_xswap.m",
+ fpath47: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xswap.m",
+ fpath48: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xgerx.m",
+ fpath49: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xger.m",
+ fpath50: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_xger.m",
+ fpath51: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xger.m",
+ fpath52: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xgeru.m",
+ fpath53: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/lapack/matlab/eml_matlab_zgetrf.m",
+ fpath54: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/lapack/internal/eml_lapack_xgetrf.m",
+ fpath55: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/lapack/eml_xgetrf.m",
+ fpath56: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_ipiv2perm.m",
+ fpath57: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xtrsm.m",
+ fpath58: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_xtrsm.m",
+ fpath59: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xtrsm.m",
+ fpath60: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/matfun/inv.m",
+ fpath61: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/matfun/norm.m",
+ fpath62: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/isnan.m",
+ fpath63: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_warning.m",
+ fpath64: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_flt2str.m",
+ fpath65: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/eulerAnglesFromQuaternion.m",
+ fpath66: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/eml_scalar_atan2.m",
+ fpath67: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/atan2.m",
+ fpath68: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_error.m",
+ fpath69: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/eml_scalar_asin.m",
+ fpath70: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elfun/asin.m",
+ fpath71: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/projectStateAndCov.m",
+ fpath72: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/refblas/eml_refblas_xnrm2.m",
+ fpath73: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/internal/eml_blas_xnrm2.m",
+ fpath74: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/blas/eml_xnrm2.m",
+ fpath75: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/quaternionRotation.m",
+ fpath76: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/Reb.m",
+ fpath77: "/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/solvePoseEst.m",
+ fpath78: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_isequal_core.m",
+ fpath79: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/elmat/isequal.m",
+ fpath80: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/eml/eml_const_nonsingleton_dim.m",
+ fpath81: "/usr/local/MATLAB/MATLAB_Production_Server/R2013a/toolbox/eml/lib/matlab/datafun/sum.m"
+};
+</script>
+</head>
+<body>
+
+<div class="west">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="MATLABcode"><span>MATLAB code</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="callstack"><span>Call stack</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="ccode"><span>C code</span></span></li>
+</ul>
+<div id="MATLABcodebody" class="ui-tabs-panel">
+<!-- Begin Filter -->
+<div class="grayline methodset" onclick="filterClick(event);">
+<a class="collapsed">Filter</a>
+</div>
+<div id="filterbody" class="hidden">
+<table class="myfunc-filter-tbl">
+<tr>
+<td title="Use this filter to display only functions and methods that contain variables or expressions with the specified attributes." colspan="2" class="checkbox">
+<div class="myfunc-filterby-chk"><input type="checkbox" class="filterenable" />
+<div class="filter-enable-lbl">Filter functions and methods</div></div></td></tr><tr>
+<td class="label"><div class="myfunc-filterby-lbl">Filter by:</div></td>
+<td class="select">
+<div class="filters">
+<select class="myfunc-filterby">
+<option id="size">Size</option>
+<option id="complex">Complexity</option>
+<option id="class">Class</option>
+</select>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="label"><div class="myfunc-filterstr-lbl">Filter:</div></td>
+<td class="input"><div>
+
+<div class="size">
+<select class="myfunc-filter size">
+<option value="1 55 302 308 311 325 376 377 378 518">1 x 1</option>
+<option value="1">1 x 16</option>
+<option value="1">1 x 3</option>
+<option value="1 377">1 x 4</option>
+<option value="377">1 x 7</option>
+<option value="1 308 325">16 x 1</option>
+<option value="1 308">16 x 16</option>
+<option value="308">16 x 18</option>
+<option value="1">16 x <b>:</b>?</option>
+<option value="308">18 x 18</option>
+<option value="1 55 377 378">2 x 1</option>
+<option value="1 55 308 311 325 376 377 378">3 x 1</option>
+<option value="308">3 x 16</option>
+<option value="308">3 x 18</option>
+<option value="1 55 308 311 376 377 378">3 x 3</option>
+<option value="308">3 x 4</option>
+<option value="1 55 302 308 311 362 375 376 377 378">4 x 1</option>
+<option value="308">4 x 16</option>
+<option value="308">4 x 18</option>
+<option value="308">4 x 3</option>
+<option value="308">4 x 4</option>
+<option value="1 377">5 x 2</option>
+<option value="308 325">6 x 1</option>
+<option value="377 518">7 x 1</option>
+<option value="1 377 518"><b>:</b>? x 1</option>
+<option value="1"><b>:</b>? x 16</option>
+<option value="377 518"><b>:</b>? x 7</option>
+<option value="1"><b>:</b>? x <b>:</b>?</option>
+</select>
+</div>
+
+<div class="complex">
+<select class="myfunc-filter complex">
+<option value="">Complex values</option>
+<option value="1 55 302 308 311 325 362 375 376 377 378 518">Real values</option>
+</select>
+</div>
+<!-- Begin Class Filter -->
+<div class="class">
+<select class="myfunc-filter class">
+<option value="1 55 302 308 311 325 362 375 376 377 378 518">double</option>
+<option value="1 377">struct</option>
+</select>
+</div>
+<!-- End Class Filter -->
+</div>
+</td>
+</tr>
+</table>
+<div class="myfunc-count"></div>
+</div>
+<!-- End Filter -->
+<div class="grayline methodset" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionSetClick(event);">
+<a class="expanded">Functions</a>
+</div>
+<!-- Begin Function Tree -->
+<div id="functiontreebody">
+<div class="functionwrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionTreeClick(event);">
+<ol class="tree">
+<!-- Begin Function Tree Roots -->
+<li class="leaf  passed"><a href="#" class="fcn" id="F376N2:F1">Reb</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F1N3:F2">correctStateAndCov</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F55N4:F3">correctStateAndCov &gt; project2_2D</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F302N6:F4">eulerAnglesFromQuaternion</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F308N7:F5">projectStateAndCov</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F311N8:F6">projectStateAndCov &gt; Reb</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F325N9:F7">projectStateAndCov &gt; projectState</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F362N10:F8">quaternionRotation</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F375N11:F9">quaternionRotation &gt; quaternionMultiply</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F377N12:F10">solvePoseEst</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F378N13:F11">solvePoseEst &gt; project2_2D</a></li>
+<li class="leaf  passed"><a href="#" class="fcn" id="F518N14:F12">solvePoseEst &gt; solveLSQ</a></li>
+<!-- End Function Tree Roots -->
+</ol>
+<!-- Function Tree Nodes -->
+<div class="functiontreenodes hidden">
+</div>
+<!-- End Function Tree Nodes -->
+</div>
+</div>
+<!-- End Function Tree -->
+</div>
+<!-- Begin Call Tree -->
+<div id="callstackbody" class="ui-tabs-panel hidden">
+<div class="treewrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="callTreeClick(event);">
+<ol class="tree">
+<!-- Call Tree Root -->
+<li class="leaf passed"><a href="#" class="fcn" id="F376N2:L13">Reb</a>
+</li>
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn" id="F1N3:L1">correctStateAndCov</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F55N4:L2">correctStateAndCov &gt; project2_2D</a></li>
+</ul>
+</li>
+<!-- Call Tree Root -->
+<li class="leaf passed"><a href="#" class="fcn" id="F302N6:L4">eulerAnglesFromQuaternion</a>
+</li>
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn" id="F308N7:L5">projectStateAndCov</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn" id="F325N9:L6">projectStateAndCov &gt; projectState</a></li>
+</ul>
+</li>
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn" id="F362N10:L10">quaternionRotation</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F375N11:L11">quaternionRotation &gt; quaternionMultiply</a></li>
+</ul>
+</li>
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn" id="F377N12:L14">solvePoseEst</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F378N13:L15">solvePoseEst &gt; project2_2D</a></li>
+<li class="leaf passed"><a href="#" class="fcn" id="F518N14:L16">solvePoseEst &gt; solveLSQ</a></li>
+</ul>
+</li>
+</ol>
+<!-- Call Tree Nodes -->
+<div class="callstacknodes hidden">
+<ol class="callstacknode" id="callstacknode1">
+
+<li class="node collapsed passed"><a href="#" class="fcn" id="F1N3:l1">correctStateAndCov</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F55N4:l2">correctStateAndCov &gt; project2_2D</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode55">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F55N4:l3">correctStateAndCov &gt; project2_2D</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode302">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F302N6:l4">eulerAnglesFromQuaternion</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode308">
+
+<li class="node collapsed passed"><a href="#" class="fcn" id="F308N7:l5">projectStateAndCov</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn" id="F325N9:l6">projectStateAndCov &gt; projectState</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode311">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F311N8:l7">projectStateAndCov &gt; Reb</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode325">
+
+<li class="node collapsed passed"><a href="#" class="fcn" id="F325N9:l8">projectStateAndCov &gt; projectState</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F311N8:l9">projectStateAndCov &gt; Reb</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode362">
+
+<li class="node collapsed passed"><a href="#" class="fcn" id="F362N10:l10">quaternionRotation</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F375N11:l11">quaternionRotation &gt; quaternionMultiply</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode375">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F375N11:l12">quaternionRotation &gt; quaternionMultiply</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode376">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F376N2:l13">Reb</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode377">
+
+<li class="node collapsed passed"><a href="#" class="fcn" id="F377N12:l14">solvePoseEst</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn" id="F378N13:l15">solvePoseEst &gt; project2_2D</a></li>
+<li class="leaf passed"><a href="#" class="fcn" id="F518N14:l16">solvePoseEst &gt; solveLSQ</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode378">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F378N13:l17">solvePoseEst &gt; project2_2D</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode518">
+
+<li class="leaf passed"><a href="#" class="fcn" id="F518N14:l18">solvePoseEst &gt; solveLSQ</a>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<!-- End Call Tree -->
+<!-- Begin C Code -->
+<div id="ccodebody" class="ui-tabs-panel hidden">
+
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="reportFileClick(event);">
+<tbody>
+<tr class="report" id="metrics.html"><td class="report"><a href="#">Static Code Metrics Report</a></td></tr>
+</tbody>
+</table><div class="grayline methodset" onclick="ccodeClick(event,1);">
+<a class="expanded">Target Source Files</a>
+</div>
+<!-- Begin C Code List -->
+<div id="ccodelistbody1" class="visible">
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="cFileClick(event);">
+<tbody>
+<tr class="ccode" id="Reb_cpp.html"><td class="ccode"><a href="#">Reb.cpp</a></td></tr>
+<tr class="ccode" id="Reb_h.html"><td class="ccode"><a href="#">Reb.h</a></td></tr>
+<tr class="ccode" id="correctStateAndCov_cpp.html"><td class="ccode"><a href="#">correctStateAndCov.cpp</a></td></tr>
+<tr class="ccode" id="correctStateAndCov_h.html"><td class="ccode"><a href="#">correctStateAndCov.h</a></td></tr>
+<tr class="ccode" id="ekf_coder_emxutil_cpp.html"><td class="ccode"><a href="#">ekf_coder_emxutil.cpp</a></td></tr>
+<tr class="ccode" id="ekf_coder_emxutil_h.html"><td class="ccode"><a href="#">ekf_coder_emxutil.h</a></td></tr>
+<tr class="ccode" id="ekf_coder_initialize_cpp.html"><td class="ccode"><a href="#">ekf_coder_initialize.cpp</a></td></tr>
+<tr class="ccode" id="ekf_coder_initialize_h.html"><td class="ccode"><a href="#">ekf_coder_initialize.h</a></td></tr>
+<tr class="ccode" id="ekf_coder_terminate_cpp.html"><td class="ccode"><a href="#">ekf_coder_terminate.cpp</a></td></tr>
+<tr class="ccode" id="ekf_coder_terminate_h.html"><td class="ccode"><a href="#">ekf_coder_terminate.h</a></td></tr>
+<tr class="ccode" id="ekf_coder_types_h.html"><td class="ccode"><a href="#">ekf_coder_types.h</a></td></tr>
+<tr class="ccode" id="eulerAnglesFromQuaternion_cpp.html"><td class="ccode"><a href="#">eulerAnglesFromQuaternion.cpp</a></td></tr>
+<tr class="ccode" id="eulerAnglesFromQuaternion_h.html"><td class="ccode"><a href="#">eulerAnglesFromQuaternion.h</a></td></tr>
+<tr class="ccode" id="eye_cpp.html"><td class="ccode"><a href="#">eye.cpp</a></td></tr>
+<tr class="ccode" id="eye_h.html"><td class="ccode"><a href="#">eye.h</a></td></tr>
+<tr class="ccode" id="inv_cpp.html"><td class="ccode"><a href="#">inv.cpp</a></td></tr>
+<tr class="ccode" id="inv_h.html"><td class="ccode"><a href="#">inv.h</a></td></tr>
+<tr class="ccode" id="mpower_cpp.html"><td class="ccode"><a href="#">mpower.cpp</a></td></tr>
+<tr class="ccode" id="mpower_h.html"><td class="ccode"><a href="#">mpower.h</a></td></tr>
+<tr class="ccode" id="projectStateAndCov_cpp.html"><td class="ccode"><a href="#">projectStateAndCov.cpp</a></td></tr>
+<tr class="ccode" id="projectStateAndCov_h.html"><td class="ccode"><a href="#">projectStateAndCov.h</a></td></tr>
+<tr class="ccode" id="quaternionRotation_cpp.html"><td class="ccode"><a href="#">quaternionRotation.cpp</a></td></tr>
+<tr class="ccode" id="quaternionRotation_h.html"><td class="ccode"><a href="#">quaternionRotation.h</a></td></tr>
+<tr class="ccode" id="rtGetInf_cpp.html"><td class="ccode"><a href="#">rtGetInf.cpp</a></td></tr>
+<tr class="ccode" id="rtGetInf_h.html"><td class="ccode"><a href="#">rtGetInf.h</a></td></tr>
+<tr class="ccode" id="rtGetNaN_cpp.html"><td class="ccode"><a href="#">rtGetNaN.cpp</a></td></tr>
+<tr class="ccode" id="rtGetNaN_h.html"><td class="ccode"><a href="#">rtGetNaN.h</a></td></tr>
+<tr class="ccode" id="rt_defines_h.html"><td class="ccode"><a href="#">rt_defines.h</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_cpp.html"><td class="ccode"><a href="#">rt_nonfinite.cpp</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_h.html"><td class="ccode"><a href="#">rt_nonfinite.h</a></td></tr>
+<tr class="ccode" id="rtwtypes_h.html"><td class="ccode"><a href="#">rtwtypes.h</a></td></tr>
+<tr class="ccode" id="solvePoseEst_cpp.html"><td class="ccode"><a href="#">solvePoseEst.cpp</a></td></tr>
+<tr class="ccode" id="solvePoseEst_h.html"><td class="ccode"><a href="#">solvePoseEst.h</a></td></tr>
+</tbody>
+</table>
+</div>
+<!-- End C Code List -->
+</div>
+<!-- End C Code -->
+</div>
+<div class="aux hidden">
+<div class="tooltips">
+<div class="tooltip" id="TT1"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT2"><table class="tooltip"><tr><th>Size</th><td>1 x 4</td></tr><tr><th>Class</th><td>struct</td></tr></table></div>
+<div class="tooltip" id="TT3"><table class="tooltip"><tr><th>Size</th><td>5 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT4"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>struct</td></tr></table></div>
+<div class="tooltip" id="TT5"><table class="tooltip"><tr><th>Size</th><td>3 x 3</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT6"><table class="tooltip"><tr><th>Size</th><td>3 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT7"><table class="tooltip"><tr><th>Size</th><td>16 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT8"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>logical</td></tr></table></div>
+<div class="tooltip" id="TT9"><table class="tooltip"><tr><th>Size</th><td>4 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT10"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT11"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>coder.internal.indexInt</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT12"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT13"><table class="tooltip"><tr><th>Size</th><td>1 x 23</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT14"><table class="tooltip"><tr><th>Size</th><td>1 x 7</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT15"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT16"><table class="tooltip"><tr><th>Size</th><td>2 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT17"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT18"><table class="tooltip"><tr><th>Size</th><td>1 x 4</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT19"><table class="tooltip"><tr><th>Size</th><td>1 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT20"><table class="tooltip"><tr><th>Size</th><td><b>:</b>? x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT21"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT22"><table class="tooltip"><tr><th>Size</th><td>1 x 6</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT23"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>int32</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT24"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>uint8</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT25"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT26"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT27"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT28"><table class="tooltip"><tr><th>Size</th><td><b>:</b>? x <b>:</b>?</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT29"><table class="tooltip"><tr><th>Size</th><td>16 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT30"><table class="tooltip"><tr><th>Size</th><td>16 x <b>:</b>?</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT31"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>?</td></tr><tr><th>Class</th><td>coder.internal.indexInt</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT32"><table class="tooltip"><tr><th>Size</th><td>0 x 0</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT33"><table class="tooltip"><tr><th>Size</th><td>1 x 0</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT34"><table class="tooltip"><tr><th>Size</th><td><b>:</b>? x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT35"><table class="tooltip"><tr><th>Size</th><td>6 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT36"><table class="tooltip"><tr><th>Size</th><td>3 x 4</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT37"><table class="tooltip"><tr><th>Size</th><td>4 x 3</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT38"><table class="tooltip"><tr><th>Size</th><td>4 x 4</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT39"><table class="tooltip"><tr><th>Size</th><td>3 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT40"><table class="tooltip"><tr><th>Size</th><td>4 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT41"><table class="tooltip"><tr><th>Size</th><td>3 x 18</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT42"><table class="tooltip"><tr><th>Size</th><td>4 x 18</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT43"><table class="tooltip"><tr><th>Size</th><td>16 x 18</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT44"><table class="tooltip"><tr><th>Size</th><td>18 x 18</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT45"><table class="tooltip"><tr><th>Size</th><td>18 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT46"><table class="tooltip"><tr><th>Size</th><td>7 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT47"><table class="tooltip"><tr><th>Size</th><td>1 x 7</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT48"><table class="tooltip"><tr><th>Size</th><td><b>:</b>? x 7</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT49"><table class="tooltip"><tr><th>Size</th><td>7 x <b>:</b>?</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT50"><table class="tooltip"><tr><th>Size</th><td>7 x 7</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT51"><table class="tooltip"><tr><th>Size</th><td>1 x 7</td></tr><tr><th>Class</th><td>coder.internal.indexInt</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT52"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT53"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>struct</td></tr></table></div>
+<div class="tooltip" id="TT54"><table class="tooltip"><tr><th>Size</th><td>2 x 16</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT55"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>mxArray</td></tr></table></div>
+<div class="tooltip" id="TT56"><table class="tooltip"><tr><th>Size</th><td>1 x 28</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT57"><table class="tooltip"><tr><th>Size</th><td>1 x 21</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT58"><table class="tooltip"><tr><th>Size</th><td>1 x 45</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT59"><table class="tooltip"><tr><th>Size</th><td>1 x 27</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT60"><table class="tooltip"><tr><th>Size</th><td>1 x 33</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT61"><table class="tooltip"><tr><th>Size</th><td>1 x 19</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT62"><table class="tooltip"><tr><th>Size</th><td>1 x 30</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT63"><table class="tooltip"><tr><th>Size</th><td>1 x 4</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT64"><table class="tooltip"><tr><th>Size</th><td>2 x 7</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT65"><table class="tooltip"><tr><th>Size</th><td>49 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT66"><table class="tooltip"><tr><th>Size</th><td>1 x 36</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+</div>
+</div>
+
+<div class="south">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="summary"><span>Summary</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="messages"><span>All Messages (0)</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="watchlist"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item hidden"><span class="tab-link" id="watchload"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="buildlog1"><span>Target Build Log</span></span></li>
+</ul>
+
+<!-- Compilation Summary -->
+<div id="summarybody" class="ui-tabs-panel">
+<table cellpadding="1" cellspacing="4">
+<tr><td>C source code generated on:</td><td>09-Jun-2014 07:29:56</td></tr>
+<tr><td>Coding target:</td><td>Static Library</td></tr>
+<tr><td>Number of errors:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+<tr><td>Number of warnings:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+</table>
+<p/><p/><table>
+<tr><td><b>Tell Us What You Think</b></td></tr>
+<tr><td>We value your feedback. Please take a few minutes to answer this short questionnaire regarding the Code Generation Report.</td></tr>
+<tr><td><a href="matlab: web('http://www.customersat3.com/TakeSurvey.asp?si=ELu7GTnTYtk%3D','-browser');">&gt;&gt;Provide Feedback</a></td></tr>
+</table>
+</div>
+
+<!-- Message Table -->
+<div id="messagesbody" class="ui-tabs-panel hidden">
+<div>
+<div class="msgsuccess">Code generation successful. Click here to <a href="javaScript:selectSummaryTab();">view summary</a>.</div>
+</div>
+</div>
+<!-- Watchlist Table -->
+<div id="watchlistbody" class="ui-tabs-panel hidden">
+</div>
+<div id="watchloadbody" class="ui-tabs-panel hidden">
+Loading Variables table ...
+</div>
+
+<!-- Target Build Log -->
+<div id="buildlog1body" class="ui-tabs-panel hidden">
+<div class="grayline"></div>
+<table cellpadding="4" cellspacing="1"><tr>
+<td align="left" class="td-linebottomrt-gray" colspan="2">Build Parameters</td>
+</tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Build directory</td>
+<td align="left" valign="top" class="td-linebottomrt-link"><a href="matlab: cd('/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/codegen/lib/ekf_coder')">/home/yashren/Documents/MATLAB/ImageProcessCheck/EKF_MotionCapture_IMU/c conversions/codegen/lib/ekf_coder</a></td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make wrapper</td>
+<td align="left" valign="top" class="td-linebottomrt-link">/usr/local/MATLAB/MATLAB_Production_Server/R2013a/bin/glnxa64/gmake -f ekf_coder_rtw.mk all</td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make command</td>
+<td align="left" valign="top" class="td-linebottomrt-link">/usr/local/MATLAB/MATLAB_Production_Server/R2013a/bin/glnxa64/gmake -f ekf_coder_rtw.mk all</td></tr>
+</table>
+<br/>
+<table border="1" cellpadding="4" cellspacing="1" width="100%">
+<tr><td align="left" class="td-linebottomrt-gray">Build Log</td></tr>
+<tr><td valign="top" class="td-script">
+<pre>
+<span class="td-line-number">    1   </span><span class="td-line-normal">Compilation suppressed: generating code only.</span>
+</pre>
+</td></tr></table>
+
+</div>
+</div>
+<!-- Begin MATLAB Code Panel -->
+<div class="center">
+<div class="center-title">
+<div class="ui-tabs-nav-item ui-tabs-selected">
+<span class="functiontitle">
+</span>
+<!-- Begin Call Sites -->
+<span id="callsiteselecttable" class="call-sites-tbl">
+<span id="callsiteselectlabel" class="filtered">Calls:</span>
+<select id="callsiteselect" onchange="callSiteChange(event)">
+<option value="callsiteprompt">Select a function call:</option>
+</select>
+</span>
+<!-- End Call Sites -->
+</div>
+</div>
+<div class="ui-tabs-panel">
+<div class="code" onmouseover="mcodeMouseOver(event);" onmouseout="mcodeMouseOut(event);"onclick="mcodeClick(event);">
+</div>
+</div>
+</div>
+<!-- End MATLAB Code Panel -->
+</body>
+</html>

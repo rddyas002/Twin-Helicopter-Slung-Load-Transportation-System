@@ -1,0 +1,15 @@
+___awdiv: CODE, 1294 0 188
+_SETUP_io: CODE, 1594 0 30
+_SETUP_i2c: CODE, 1624 0 26
+_SETUP_swI2C_intOn: CODE, 1698 0 6
+_SETUP_swI2C_intOff: CODE, 1704 0 6
+_main: CODE, 1098 0 196
+__initialization: CODE, 1544 0 44
+_SETUP_T0_deactivate: CODE, 1690 0 8
+i2_SETUP_swI2C_intOn: CODE, 1716 0 6
+_InterruptHandlerHigh: CODE, 8 0 1086
+_SETUP_PWM: CODE, 1482 0 62
+_SETUP_T0_activate: CODE, 1678 0 12
+_SETUP_clock: CODE, 1650 0 14
+_SETUP_releaseI2C: CODE, 1710 0 6
+Total: 1690

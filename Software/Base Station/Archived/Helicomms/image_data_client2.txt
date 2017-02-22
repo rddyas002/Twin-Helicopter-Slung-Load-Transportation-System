@@ -1,0 +1,3 @@
+Intrinsic parameters (fx,fy,cx,cy) [pixel/mm]: 270.851166,270.782074,160.644485,119.420685
+Rotation parameters (th_z,th_x,th_z2) [rad/s]: 4.226556,-2.298348,-0.237486
+Translation parameters (Tcw_x,Tcw_y,Tcw_z) [mm]: -2300.000000,1540.000000,3100.000000

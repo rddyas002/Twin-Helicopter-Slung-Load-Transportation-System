@@ -1,0 +1,200 @@
+Partlist
+
+Exported from main.sch at 2011/10/19 10:26:58 AM
+
+EAGLE Version 5.1.0 Copyright (c) 1988-2008 CadSoft
+
+Part            Value            Device                Package               Library         Sheet
+
+3V3(1)          M01PTH           M01PTH                1X01                  SparkFun        1
+3V3(2)          M01PTH           M01PTH                1X01                  SparkFun        1
+5V(1)           M01PTH           M01PTH                1X01                  SparkFun        1
+5V(2)           M01PTH           M01PTH                1X01                  SparkFun        1
+AN              M01PTH           M01PTH                1X01                  SparkFun        1
+ANALOG_PORT     M10X2            M10X2                 2X10                  SparkFun        1
+C1              15uF50V          NAZT150M50V6.3X6.3NBF NAZT150M50V6.3X6.3NBF cap             1
+C2              15uF50V          CAP100UF16V           6.3X5.5               cap             1
+C3              220nF25V         CAP_0603_CER          0603                  cap             1
+C4              220nF25V         CAP_0603_CER          0603                  cap             1
+C5              15uF50V          NAZT150M50V6.3X6.3NBF NAZT150M50V6.3X6.3NBF cap             1
+C6              15uF50V          CAP100UF16V           6.3X5.5               cap             1
+C7              220nF25V         CAP_0603_CER          0603                  cap             1
+C8              220nF25V         CAP_0603_CER          0603                  cap             1
+C9              10nF50V          CAP_0603_CER          0603                  cap             1
+C10             10nF50V          CAP_0603_CER          0603                  cap             1
+C11             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C12             100nF16V         CAP_0603_CER          0603                  cap             1
+C13             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C14             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C15             100nF16V         CAP_0603_CER          0603                  cap             1
+C16             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C17             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C18             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C19             100nF16V         CAP_0603_CER          0603                  cap             1
+C20             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C21             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C22             100nF16V         CAP_0603_CER          0603                  cap             1
+C23             100nF16V         CAP_0603_CER          0603                  cap             1
+C24             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C25             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C26             100nF16V         CAP_0603_CER          0603                  cap             1
+C27             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C28             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C29             100nF16V         CAP_0603_CER          0603                  cap             1
+C30             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C31             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C32             100nF16V         CAP_0603_CER          0603                  cap             1
+C33             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C34             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C35             100nF16V         CAP_0603_CER          0603                  cap             1
+C36             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C37             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C38             100nF16V         CAP_0603_CER          0603                  cap             1
+C39             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C40             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C41             100nF16V         CAP_0603_CER          0603                  cap             1
+C42             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C43             100nF16V         CAP_0603_CER          0603                  cap             1
+C44             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C45             100nF16V         CAP_0603_CER          0603                  cap             1
+C46             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C47             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C48             100nF16V         CAP_0603_CER          0603                  cap             1
+C49             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C50             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C51             100nF16V         CAP_0603_CER          0603                  cap             1
+C52             100nF16V         CAP_0603_CER          0603                  cap             1
+C53             100nF16V         CAP_0603_CER          0603                  cap             1
+C54             100nF16V         CAP_0603_CER          0603                  cap             1
+C55             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C56             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C57             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C58             100nF16V         CAP_0603_CER          0603                  cap             1
+C59             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C60             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C61             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C62             100nF16V         CAP_0603_CER          0603                  cap             1
+C63             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C64             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C65             100nF16V         CAP_0603_CER          0603                  cap             1
+C66             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C67             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C68             100nF16V         CAP_0603_CER          0603                  cap             1
+C69             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C71             100nF16V         CAP_0603_CER          0603                  cap             1
+C72             10uF16V          CAP_POL_TANT3216      EIA3216-18            cap             1
+C73             100uF16V         CAP100UF16V           6.3X5.5               cap             1
+C74             100nF16V         CAP_0603_CER          0603                  cap             1
+C76             100nF16V         CAP_0603_CER          0603                  cap             1
+C77             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C78             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C79             100nF16V         CAP_0603_CER          0603                  cap             1
+C80             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C81             100nF16V         CAP_0603_CER          0603                  cap             1
+C83             22uF10V          CAP4X6.3MM            4X6.3                 cap             1
+C84             100nF16V         CAP_0603_CER          0603                  cap             1
+C85             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C86             22uF6.3V         CAP4X6.3MM            4X6.3                 cap             1
+C87             100nF16V         CAP_0603_CER          0603                  cap             1
+C88             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C89             100nF16V         CAP_0603_CER          0603                  cap             1
+C90             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C92             100nF16V         CAP_0603_CER          0603                  cap             1
+C93             10uF6.3V         CAP_POL_TANT3216      EIA3216-18            cap             1
+C94             18pF             CAP_0603_CER          0603                  cap             1
+C95             18pF             CAP_0603_CER          0603                  cap             1
+C96             8.2pF            CAP_0603_CER          0603                  cap             1
+C97             8.2pF            CAP_0603_CER          0603                  cap             1
+CON1            POWERJACK        POWERJACK             POWERJACK             conn            1
+D1              SSC54-E3/57T     SSC54-E3/57T          DO-214AB(SMC)         diode           1
+D2              B360             B360                  SMC                   diode           1
+D3              B360             B360                  SMC                   diode           1
+D4              FDLL4148X        D-MLL-34              MELF-MLL34            semicon-smd-ipc 1
+D5              FDLL4148X        D-MLL-34              MELF-MLL34            semicon-smd-ipc 1
+F1              FUSE_MAIN        FUSE_MAIN             3413.0223.22          fuse            1
+F3              FUSE             FUSE                  MF-MSMF020-2          fuse            1
+GND             M01PTH           M01PTH                1X01                  SparkFun        1
+GPS                              M03PTH                1X03                  SparkFun        1
+HD1             9DOF_SENSORSTICK 9DOF_SENSORSTICK      SENSOR_STICK          sensorstick     1
+HD2             LS20031          LS20031               LS20031               gps             1
+HD3             EZ3              EZ3                   EZ3                   ultrasonic      1
+HD4             BMP085           BAROMETER             BAROMETER             barometer       1
+HD_CAM1                          M04PTH                1X04                  SparkFun        1
+HD_CAM2                          M04PTH                1X04                  SparkFun        1
+HOST                             JUMPER-2SMD-NO        SJ_2S-NO              SparkFun        1
+I2C1                             M02PTH                1X02                  SparkFun        1
+I2C2                             M02PTH                1X02                  SparkFun        1
+IC1             MAX3002-2        MAX3002-2             U20-3                 logic           1
+IC2             MAX3002-2        MAX3002-2             U20-3                 logic           1
+IO_5V_INTERFACE                  M06SIP                1X06                  SparkFun        1
+JP1                              JUMPER-2SMD-NO        SJ_2S-NO              SparkFun        1
+L1              B82477G          B82477G               12X12MM_PACK          ind             1
+L2              B82477G          B82477G               12X12MM_PACK          ind             1
+LD1             5V_1             LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD2             5V_2             LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD3             3V3_1            LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD4             3V3_2            LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD5             ASSOC.           LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD6             DATA TX          LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD7             CONNECT          LEDCHIPLED_0603       CHIPLED_0603          led             1
+LD8             BOOT             LEDCHIPLED_0603       CHIPLED_0603          led             1
+MCU             PIC32MX795F512L  PIC32MX795F512L       TQFP100_12MM          mcu             1
+MD1             WIFLY2           WIFLY2                WIFIFLY2              wifly           1
+MUX3                             M03PTH                1X03                  SparkFun        1
+M_CTS                            JUMPER-2SMD-NO        SJ_2S-NO              SparkFun        1
+M_RTS                            JUMPER-2SMD-NO        SJ_2S-NO              SparkFun        1
+PARALLEL_PORT   M10X2            M10X2                 2X10                  SparkFun        1
+PW              M01PTH           M01PTH                1X01                  SparkFun        1
+PWR_OUT                          M03-SCREW-5MM         SCREWTERMINAL-5MM-3   SparkFun        1
+PWR_SW                           M025MM                SCREWTERMINAL-5MM-2   SparkFun        1
+R1              470R             RES0603               0603                  res             1
+R2              470R             RES0603               0603                  res             1
+R3              220R             RES0603               0603                  res             1
+R4              220R             RES0603               0603                  res             1
+R5              220R             RES0603               0603                  res             1
+R6              10k              RES0603               0603                  res             1
+R7              10k              RES0603               0603                  res             1
+R8              220R             RES0603               0603                  res             1
+R9              220R             RES0603               0603                  res             1
+R10             220R             RES0603               0603                  res             1
+R11             10k              RES0603               0603                  res             1
+R12             10k              RES0603               0603                  res             1
+R13             10k              RES0603               0603                  res             1
+R14             10k              RES0603               0603                  res             1
+R15             RES0603          RES0603               0603                  res             1
+R16             1M               RES0603               0603                  res             1
+R17             180k             RES0603               0603                  res             1
+R18             10k              RES0603               0603                  res             1
+R19             10k              RES0603               0603                  res             1
+R20             10k              RES0603               0603                  res             1
+R21             10k              RES0603               0603                  res             1
+R23             10k              RES0603               0603                  res             1
+R24             10k              RES0603               0603                  res             1
+R25             10k              RES0603               0603                  res             1
+R26             10k              RES0603               0603                  res             1
+R27             10k              RES0603               0603                  res             1
+R28             10k              RES0603               0603                  res             1
+R29             10k              RES0603               0603                  res             1
+R30             10k              RES0603               0603                  res             1
+REF1            REF3133AIDBZTG4  REF3133AIDBZTG4       SOT-23-3              regulator       1
+REG1            LM2676           LM2676                TO-263                regulator       1
+REG2            LM2676           LM2676                TO-263                regulator       1
+REG3            LM1117IDT3.3     V_REG_LM1117SOT223    SOT223                SparkFun        1
+REG4            LM1117IDT3.3     V_REG_LM1117SOT223    SOT223                SparkFun        1
+REG5            LM1117IDT3.3     V_REG_LM1117SOT223    SOT223                SparkFun        1
+SERVOS          RX_SERVO_STACK   RX_SERVO_STACK        SERVO_HEADER          conn            1
+SPI                              M05PTH                1X05                  SparkFun        1
+SPI_MUX                          SOLDERJUMPER_2WAYS    SJ_3                  SparkFun        1
+SWT1            RESET_WIFI       TACT                  TACT                  switch          1
+SWT2            PROGRAM          TACT                  TACT                  switch          1
+SWT3            RESET_MCU        TACT                  TACT                  switch          1
+T1              2N7002           MOSFET                MOSFET                mosfet          1
+T2              2N7002           MOSFET                MOSFET                mosfet          1
+TX_DBG          M01PTH           M01PTH                1X01                  SparkFun        1
+U$46            ICSP             ICSP                  ICSP                  conn            1
+U$47            USBMINIB2        USBMINIB2             USBMINIB2             conn            1
+U1              MICROSD          USD-SOCKETNEW         MICRO-SD-SOCKET-PP    SparkFun        1
+ULTRA_ON                         M02PTH                1X02                  SparkFun        1
+USB_PWR                          JUMPER-2SMD-NO        SJ_2S-NO              SparkFun        1
+X2              32.786kHz        2PIN_RTCC             1.5X3.2MM_SMD_RTCC    crystal         1
+X3              8MHz             SMD_4PIN_OSC          3.2X5MM_SMD_CRYSTAL   crystal         1
