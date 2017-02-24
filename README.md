@@ -21,4 +21,5 @@ This repository contains all the hardware and software development that was done
 1. Single helicopter position control test <https://youtu.be/7Kq4-oiGThU>
 2. Simulation showing trajectory tracking of translation and attitude <https://youtu.be/bJs7ehfYPP0>
 
-
+Repository maintained by Yashren Reddi
+E-mail: yashren.reddi@uct.ac.za 
